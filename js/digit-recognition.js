@@ -3,11 +3,11 @@
 //-------------------
 let model;
 
-var canvasWidth           	= 150;
-var canvasHeight 			= 150;
+var canvasWidth           	= 400;
+var canvasHeight 			= 400;
 var canvasStrokeStyle		= "white";
 var canvasLineJoin			= "round";
-var canvasLineWidth       	= 10;
+var canvasLineWidth       	= 20;
 var canvasBackgroundColor 	= "black";
 var canvasId              	= "canvas";
 
@@ -306,7 +306,7 @@ function displayLabel(data) {
             max = data[i];
         }
     }
-    kurdish_label = ["ك", "ا", "ب", "پ", "ت", "ج", "چ", "ح", "خ", "د", "ر", "ڕ", "ز", "ژ", "س", "ش", "ع", "غ", "ف", "ق", "ڤ", "ک", "گ", "ل", "ڵ", "م", "ن", "هه", "ە", "و", "وو", "ۆ", "ی", "ێ", "ص"];
+    kurdish_label = ["ئ", "ا", "ب", "پ", "ت", "ج", "چ", "ح", "خ", "د", "ر", "ڕ", "ز", "ژ", "س", "ش", "ع", "غ", "ف", "ق", "ڤ", "ک", "گ", "ل", "ڵ", "م", "ن", "هه", "ە", "و", "وو", "ۆ", "ی", "ێ", "ص"];
 
     let maxIndenx_final = kurdish_label[maxIndex];
 
